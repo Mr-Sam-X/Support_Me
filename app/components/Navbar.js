@@ -9,6 +9,7 @@ const Navbar = () => {
         <li>Projects</li>
         <li>Signup</li>
         <li>Login</li>
+        <li>Move</li>
     </ul>
    </nav>
   )
