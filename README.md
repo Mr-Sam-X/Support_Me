@@ -1,2 +1,0 @@
-# premium_payments
-
