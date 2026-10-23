@@ -34,27 +34,37 @@ const Username = async ({ params }) => {
         <div className="bg-slate-900 rounded-lg p-8">
           <h2 className="text-lg font-bold mb-5">Supporters</h2>
           <ul className="space-y-2 text-sm">
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
-            <li>Shubham donated $30 with a message &quot;&quot;</li>
+            <li>Shubham donated <span className="font-bold">$30</span>  with a message &quot;
+            lots of ❤ &quot;</li>
+            <li>Shubham donated <span className="font-bold">$30</span> with a message &quot;Great work!</li>
+            <li>Shubham donated <span className="font-bold">$30</span> with a message &quot;Keep it up!</li>
+            <li>Shubham donated <span className="font-bold">$30</span> with a message &quot;Love your art!</li>
+            <li>Shubham donated <span className="font-bold">$30</span> with a message &quot;Inspiring!</li>
+            <li>Shubham donated <span className="font-bold">$30</span> with a message &quot;Can't wait for more!</li>
+           
           </ul>
         </div>
 
         {/* Make a Payment */}
         <div className="bg-slate-900 rounded-lg p-8">
           <h2 className="text-lg font-bold mb-5">Make a Payment</h2>
-          <div className="flex gap-2">
+          <div className="flex flex-col gap-2">
+            <input
+              type="text"
+              placeholder="Enter Name"
+              className="flex-1 bg-slate-800 rounded-md px-3 py-2 text-sm placeholder-gray-400 focus:outline-none"
+            />
+            <input
+              type="text"
+              placeholder="Enter Message"
+              className="flex-1 bg-slate-800 rounded-md px-3 py-2 text-sm placeholder-gray-400 focus:outline-none"
+            />
             <input
               type="text"
               placeholder="Enter Amount"
               className="flex-1 bg-slate-800 rounded-md px-3 py-2 text-sm placeholder-gray-400 focus:outline-none"
             />
-            <button className="bg-slate-800 rounded-md px-4 py-2 text-sm">
+            <button className="inline-flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 m-1 cursor-pointer">
               Pay
             </button>
           </div>
